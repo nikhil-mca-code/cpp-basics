@@ -191,6 +191,10 @@ nikhil|1234|5000|1000|
 
 ## Deposit Screen
 ![Deposit](screenshots/deposit.png)
+ 
+ ## User Screen
+![User](screenshots/user.png)
+
 ```
 
 ---
