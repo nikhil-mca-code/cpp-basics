@@ -59,32 +59,29 @@ This project allows users to create accounts, sign in, deposit money, borrow mon
 # 📂 Project Structure
 
 ```text
-cpp-basics/
+bank-management-system/
 │
-└── bank-management-system/
-    │
-    ├── main.cpp
-    ├── Header.h
-    ├── data.txt
-    ├── Project3.exe
-    └── README.md
+├── main.cpp
+├── Header.h
+├── data.txt
+├── Project3.exe
+└── README.md
 ```
 
 ---
+
 # 🚀 Installation & Setup
 
 ## Step 1: Clone Repository
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/nikhil-mca-code/cpp-basics.git
+git clone https://github.com/nikhil-mca-code/bank-management-system.git
 ```
 
 Move into project folder:
 
 ```bash
-cd cpp-basics/bank-management-system
+cd bank-management-system
 ```
 
 ---
@@ -97,7 +94,7 @@ Recommended:
 
 - MSYS2 + MinGW-w64
 
-Verify installation:
+After installation verify:
 
 ```bash
 g++ --version
@@ -107,7 +104,9 @@ g++ --version
 
 ## Step 3: Compile Project
 
-Inside project folder run:
+Open terminal inside project folder.
+
+Compile:
 
 ```bash
 g++ main.cpp -o bank.exe
@@ -117,11 +116,19 @@ g++ main.cpp -o bank.exe
 
 ## Step 4: Run Program
 
-Run:
+Run executable:
 
 ```bash
 .\bank.exe
 ```
+
+or
+
+```bash
+bank.exe
+```
+
+---
 
 # 🖥️ How to Use
 
@@ -185,17 +192,18 @@ Example:
 nikhil|1234|5000|1000|
 ```
 
-```md
-## Main Menu
-![Main Menu](screenshots/menu.png)
+---
 
-## Deposit Screen
-![Deposit](screenshots/deposit.png)
- 
- ## User Screen
-![User](screenshots/user.png)
+## 📸 Screenshots
 
-```
+### Main Menu
+<img src="screenshots/menu.png" width="300">
+
+### Deposit Screen
+<img src="screenshots/deposit.png" width="300">
+
+### User/Login Screen
+<img src="screenshots/user.png" width="300">
 
 ---
 
